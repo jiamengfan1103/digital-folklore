@@ -1,25 +1,50 @@
-<style>
-
-  .Topic {
-    color: Orange;
-    font-family: "Comic Sans MS"
-  }
-
-</style>
-<body>
-  <center>
-    
-    <h1 class="Topic">ITZY Fan Page</h1>
-
-    <p>
-      This is a personal website designed by Jamie Fan
-      <img src="https://web.archive.org/web/20010517035036/http://www.geocities.com/MadisonAvenue/Boardroom/7247/" alt="a .gif of a CD">
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Example Site</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+      section {
+        margin: 50px;
+      }
       
+      a {
+        color: magenta;
+        text-transform: uppercase;
+        font-style: bold;
+        cursor: crosshair;
+      }
       
-      <a class="pink-box" href="https://netizen.org">here's a link</a>
-      here's another <a href="https://netizen.org">link</a>
-      and <a href="https://netizen.org">another</a>
-    </p>
+      .call-out {
+        color: blue;
+        font-size: 24px;
+        font-style: italic;
+      }
+    </style>
+	</head>
+	<body>
+
+    <section>
+			<h1 style="color: red;">A Heading</h1>
+      <p class="call-out">
+        This is a paragraph. Content that we place within
+        a paragraphelement has a different default appearance,
+        or "style", than the content we place within a heading
+        element, which displays it's text content with a larger
+        default "font-size".
+      </p>
+      <p>
+				Every element has it's own default style, for example
+        the <a href="https://netart.rocks">anchor element</a>
+        will add an "underline" to any of it's content as well
+        as change its color. This is done to let the user know 
+        that this text is a "link" which can be clicked to
+        navigate to a different HTML page. Here is another 
+        <a href="https://netizen.org" target="_blank">link</a>
+      </p>
+      <img src="/images/gifs/cd.gif" alt="a .gif of a CD">
+    </section>
     
-  </center>
-</body>
+	</body>
+</html>
